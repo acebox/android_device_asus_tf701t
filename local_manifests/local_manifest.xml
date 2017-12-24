@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <manifest>
+        <!-- <remote name="github" fetch="https://github.com"  /> -->
+
+        <remove-project name="android_bootable_recovery" />
+<!--    <remove-project name="android_external_busybox" /> -->
+<!--    <project path="bootable/recovery" name="zombi-x/android_bootable_recovery" clone-depth="1" remote="github" revision="mm6.0" /> -->
+        <project path="bootable/recovery" name="omnirom/android_bootable_recovery" clone-depth="1" remote="github" revision="android-8.0" />
+
+<!--    <project path="external/busybox" name="omnirom/android_external_busybox" clone-depth="1" remote="github" revision="android-8.0" /> -->
+</manifest>

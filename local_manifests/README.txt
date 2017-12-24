@@ -1,0 +1,3 @@
+-this is the local_manifest file I used to sync twrp's current sources in place of bootable/recovery.
+-I built TWRP with this under zombi-x's android build, *may* work with others (AOSP-ish?)
+-place this local_manifest in .repo/local_manifest (Create if it doesn't exist)
